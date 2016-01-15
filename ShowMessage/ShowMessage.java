@@ -42,7 +42,7 @@ public class First {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 197, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -56,11 +56,11 @@ public class First {
 		btnNewButton.setForeground(new Color(51, 0, 153));
 		btnNewButton.setBackground(new Color(0, 255, 0));
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
-		btnNewButton.setBounds(10, 102, 144, 36);
+		btnNewButton.setBounds(10, 103, 161, 36);
 		frame.getContentPane().add(btnNewButton);
 		
 		 lblMessage = new JLabel("Message");
-		lblMessage.setBounds(27, 46, 203, 14);
+		lblMessage.setBounds(62, 53, 86, 14);
 		frame.getContentPane().add(lblMessage);
 	}
 }
